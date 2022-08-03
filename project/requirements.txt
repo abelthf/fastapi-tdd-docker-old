@@ -4,3 +4,5 @@ asyncpg==0.26.0
 asyncpg==0.26.0
 tortoise-orm==0.19.2
 aerich==0.6.3
+pytest==7.1.2
+requests==2.28.1
