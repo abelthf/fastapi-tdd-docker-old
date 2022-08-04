@@ -2,3 +2,13 @@
 tortoise_orm = "app.db.TORTOISE_ORM"
 location = "./migrations"
 src_folder = "./."
+
+[tool.black]
+exclude = "env/"
+
+# [tool.flake8]
+# exclude = "env/"
+# max-line-length = 119
+
+[tool.isort]
+skip = "env/"
